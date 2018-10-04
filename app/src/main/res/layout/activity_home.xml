@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_dhaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:contentDescription="My name is Mirajul Hoque . I was born on the 2nd February, 1996 at Doulatpur in feni. I am the first child of parents. My father is a Services holder and my mother is a housewife. I am now twenty two years old. I am a student of BBS. The name of my college Gov. Commerce college, Chittagong. I have got one brother and one sister. My brother is a student of class nine and my sister is a student of class eight. Both of them are good student. "
+        android:text="Dhaka" />
+
+    <Button
+        android:id="@+id/btn_ctg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
+        android:text="Chittagong" />
+</RelativeLayout>
